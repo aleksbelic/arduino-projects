@@ -1,2 +1,3 @@
-# arduino-projects
-Arduino projects
+# Arduino projects
+
+- RGB LED
