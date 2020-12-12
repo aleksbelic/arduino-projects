@@ -1,7 +1,22 @@
+/*
+RGB LED
+=======
+	RGB LED should loop through red, green and blue color. 
+
+Components:
+  - Arduino Uno R3 (1)
+  - RGB LED, common cathode (1)
+  - 220 Ω Resistor (3)
+  - breadboard (1)
+  - M-M jumper wires (4)
+*/
+
 // define pins
 #define BLUE 3
 #define GREEN 5
 #define RED 6
+#define MAX_LIGHT 55 // 0 - 255
+#define DELAY 50 // fading time between colors, ms
 
 // define variables
 int redValue;
@@ -18,8 +33,6 @@ void setup() {
 }
 
 void loop() {
-	#define MAX_LIGHT 55 // from 0 to 255
-	#define DELAY 50 // fading time between colors, ms
 
 	redValue = MAX_LIGHT;
 	greenValue = 0;
