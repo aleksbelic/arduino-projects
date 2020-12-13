@@ -15,6 +15,7 @@ Components:
 #define BLUE 3
 #define GREEN 5
 #define RED 6
+
 #define MAX_LIGHT 55 // 0 - 255
 #define DELAY 50 // fading time between colors, ms
 
