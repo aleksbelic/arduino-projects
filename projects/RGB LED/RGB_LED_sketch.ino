@@ -1,14 +1,20 @@
 /*
-RGB LED
-=======
-	RGB LED should loop through red, green and blue color. 
+  RGB LED fade
+  ============
+  Smoothly cross-fades a common-cathode RGB LED: red -> green -> blue -> red.
 
-Components:
-  - Arduino Uno R3 (1)
-  - RGB LED, common cathode (1)
-  - 220 Ω Resistor (3)
-  - breadboard (1)
-  - M-M jumper wires (4)
+  Components:
+    - Arduino Uno R3 (1)
+    - RGB LED, common cathode (1)
+    - 220 ohm resistor (3)
+    - breadboard (1)
+    - M-M jumper wires (4)
+
+  Wiring:
+    D6  -> 220 ohm -> LED red
+    D5  -> 220 ohm -> LED green
+    D3  -> 220 ohm -> LED blue
+    GND -> LED common cathode (longest leg)
 */
 
 // define pins

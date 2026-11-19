@@ -1,4 +1,4 @@
-# Arduino projects
+# Arduino Projects
 
 - RGB LED
 - push buttons
