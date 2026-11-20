@@ -11,7 +11,7 @@
 
   Wiring:
     D8 -> One side of the push button
-    GND -> Opposite (diagonal) side of the push button
+    GND -> Opposite side of the push button
 */
 
 const unsigned long READ_INTERVAL_MS = 1000;  // Pause between readings
