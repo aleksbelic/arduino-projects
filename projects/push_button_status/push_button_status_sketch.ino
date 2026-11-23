@@ -10,7 +10,7 @@
     - M-M jumper wires (2)
 
   Wiring:
-    D8 -> One side of the push button
+    D8  -> One side of the push button
     GND -> Opposite side of the push button
 */
 
